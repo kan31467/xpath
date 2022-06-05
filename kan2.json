@@ -1,52 +1,36 @@
 ﻿{"wallpaper":"https://picsum.photos/1280/720/?blur=10","spider":"https://gitee.com/kan67/mag/raw/master/kan2.jar",
-  "sites": [{"key":"360_spider","name":"360(官源)","type":3,"api":"csp_YS360","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/360.json"},
-{"key":"2345_spider","name":"2345(官源)","type":3,"api":"csp_YS2345","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/2345.json"},
-{"key":"sogou_spider","name":"搜狗影视(官源)","type":3,"api":"csp_YSSogou","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/sogou.json"},
+  "sites": [
 {"key":"77_spider","name":"七七🐞","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
-{
-      "key": "csp_LiteApple",
-      "name": "苹果🐞",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+{"key":"csp_biubiu_厂长资源-蓝光","name":"厂长资源-蓝光(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://gitee.com/kan67/OneClickRun/raw/master/Biubiu/厂长资源-蓝光.json"},
+    {"key":"csp_xpath_虎牙直播1","name":"虎牙直播🎤","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitee.com/kan67/cat-tv/raw/master/huya.json"},{"key":"csp_xpath_A33","name":"MTV🎸","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://gitee.com/kan67/cat-tv/raw/master/MTV.json"},
     {
-      "key": "csp_xpath_网络搜集库huaya",
-      "name": "虎牙🎤",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.iqiq.io/tvba/x/main/huya.js"
-    },
-    {
-      "key": "csp_xpath_网络搜集库qiumi",
+      "key": "csp_xpath_qiumi",
       "name": "球迷🏀",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/tvba/x/main/516-qiumi.js"
+      "ext": "https://gitee.com/kan67/cat-tv/raw/master/qiumi.json"
     },
     {
-      "key": "csp_xpath_A33",
-      "name": "MTV🎸",
+      "key": "csp_xpath_qiumi2",
+      "name": "88看球🏀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/tvba/x/main/mtv"
+      "ext": "https://gitee.com/kan67/cat-tv/raw/master/88kanqiu.json"
     },
+    {"key":"csp_xpath_A33","name":"MTV🎸","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://gitee.com/kan67/cat-tv/raw/master/MTV.json"},
 {"key":"ikan_spider","name":"爱看🐞","type":3,"api":"csp_IKan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"mjxq_spider","name":"美剧星球🐞","type":3,"api":"csp_MjxqApp","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"auete_spider","name":"Auete🐞","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/Auete.bmp"},
 {"key":"buka_spider","name":"真不卡🐞","type":3,"api":"csp_Buka","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/zhenbuka.bmp"},
-//{"key":"ftys_spider","name":"饭团🐞","type":3,"api":"csp_Ftys","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/fantuan.bmp"},
+{"key":"360_spider","name":"360(官源)","type":3,"api":"csp_YS360","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/360.json"},
+{"key":"2345_spider","name":"2345(官源)","type":3,"api":"csp_YS2345","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/2345.json"},
+{"key":"sogou_spider","name":"搜狗影视(官源)","type":3,"api":"csp_YSSogou","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/sogou.json"},
 
 {
       "key": "csp_appysv2_9e国语",
@@ -58,16 +42,7 @@
       "filterable": 1,
       "ext": "http://vod.9e03.com/lvdou_api.php/v1.vod"
     },
-    {
-      "key": "美剧虫",
-      "name": "美剧虫(v1)",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://meijuchong.com/api.php/v1.vod"
-    },
+   
 
 
 {"key":"csp_xpath_独播库","name":"独播库(XPF)(播放器要改成系统播放器)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/kan67/television/raw/master/duboku.json"},
